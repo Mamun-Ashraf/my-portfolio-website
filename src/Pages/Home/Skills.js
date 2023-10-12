@@ -4,7 +4,7 @@ const Skills = ({ skill }) => {
 
     const { tool, picture, percentage } = skill;
     return (
-        <div className='bg-emerald-300 rounded-xl py-3 px-5'>
+        <div className='bg-gradient-to-r from-[#e4a9fe] to-[#c2abff] rounded-xl py-3 px-5'>
             <div className=' flex items-center justify-evenly'>
                 <img src={picture} alt="" className='w-1/4' />
                 <h2 className='text-center text-xl text-orange-600 font-bold'>{tool}</h2>
